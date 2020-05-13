@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.21.21",
+    "gatsby": "^2.21.22",
     "gatsby-image": "^2.4.3",
     "gatsby-plugin-manifest": "^2.4.2",
     "gatsby-plugin-offline": "^3.2.1",
@@ -15,8 +15,11 @@
     "gatsby-transformer-sharp": "^2.5.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-aria-modal": "^4.0.0",
+    "react-container-dimensions": "^1.4.1",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.0.0"
+    "react-helmet": "^6.0.0",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
     "prettier": "2.0.5"

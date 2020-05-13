@@ -1,7 +1,8 @@
 html {
-  font-family: sans-serif;
+  font-family: arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -42,6 +43,9 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+}
+*:focus {
+  outline: none;
 }
 a:active,
 a:hover {
@@ -185,7 +189,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em arial, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -200,7 +204,6 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
