@@ -13,7 +13,7 @@ const ContactContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #f5f5f5;
   padding: 80px;
 `
 const TextContainer = styled.div`

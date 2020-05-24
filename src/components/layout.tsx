@@ -13,16 +13,20 @@ const FlexBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 `
 
+const Footer = styled.footer`
+background-color: #f5f5f5;
+`;
 const Layout = ({ children }) => {
   return (
     <>
       <div>
         <main>{children}</main>
-        <footer>
+        <Footer>
           <FlexBox>© {new Date().getFullYear()}, SAM MCGOVERN</FlexBox>
-        </footer>
+        </Footer>
       </div>
     </>
   )

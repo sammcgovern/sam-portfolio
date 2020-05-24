@@ -35,6 +35,10 @@ const Header = () => (
         MY WORK
       </Link>
       <Gap right={30} />
+      <Link to="#print" style={{ color: "#fff", textDecoration: `none` }}>
+        PRINT
+      </Link>
+      <Gap right={30} />
       <Link
         to="#contact"
         style={{
